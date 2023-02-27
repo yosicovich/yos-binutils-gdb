@@ -107,7 +107,7 @@ arm-*-phoenix*)		targ_emul=armelf ;;
 arm-*-rtems*)		targ_emul=armelf ;;
 armeb-*-elf | armeb-*-eabi*)
 			targ_emul=armelfb ;;
-arm-*-elf | arm*-*-eabi*)
+arm-*-elf | arm*-*-eabi* | arm*-*-yos*)
 	  		targ_emul=armelf ;;
 arm*-*-symbianelf*)     targ_emul=armsymbian;;
 arm-*-kaos*)		targ_emul=armelf ;;
